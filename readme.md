@@ -4,4 +4,4 @@
 - JavaScript DOM :heavy_check_mark:
 - JavaScript: Armazenando Dados :heavy_check_mark:
 ### 7 Days Of Code
-- Lógica JavaScript
+- Lógica JavaScript :heavy_check_mark:
