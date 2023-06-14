@@ -3,5 +3,6 @@
 - JavaScript para Web :heavy_check_mark:
 - JavaScript DOM :heavy_check_mark:
 - JavaScript: Armazenando Dados :heavy_check_mark:
+- JavaScript: Validações e reconhecimento de voz
 ### 7 Days Of Code
 - Lógica JavaScript :heavy_check_mark:
