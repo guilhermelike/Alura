@@ -13,6 +13,8 @@ function onSpeak(e){
     chute = e.results[0][0].transcript
     exibeChuteNaTela(chute)
     verificaSeOChutePossuiUmValorValido(chute)
+    console.log(chute)
+
 }
 
 function exibeChuteNaTela(chute){
