@@ -5,5 +5,7 @@
 - JavaScript: Armazenando Dados :heavy_check_mark:
 - JavaScript: Validações e reconhecimento de voz :heavy_check_mark:
 - JavaScript: Consumindo e tratando dados de uma API :heavy_check_mark:
+- JavaScript: Métodos de Array :heavy_check_mark:
+- JavaScript: Criando Requisições 
 ### 7 Days Of Code
 - Lógica JavaScript :heavy_check_mark:
