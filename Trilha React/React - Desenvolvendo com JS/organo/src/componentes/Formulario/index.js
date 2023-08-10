@@ -4,14 +4,7 @@ import CampoTexto from '../CampoTexto'
 import ListaSuspensa from '../ListaSuspensa'
 import './formulario.css'
 
-const Formulario = () => {
-
-    const divisoes = [
-        'Série A',
-        'Série B',
-        'Série C',
-        'Série D'
-    ]
+const Formulario = (props) => {
 
     const [nome, setNome] = useState('')
     const [estado, setEstado] = useState('')
@@ -21,7 +14,16 @@ const Formulario = () => {
 
     const aoSalvar = (evento) =>{
         evento.preventDefault()
-        console.log(nome, estado, escudo, divisao)
+        props.aoTimeCadastrado({
+            nome, 
+            estado,
+            escudo,
+            divisao
+        })
+        setNome('')
+        setEstado('')
+        setEscudo('')
+        setDivisao('')
     }
 
     return (
@@ -49,7 +51,7 @@ const Formulario = () => {
                 <ListaSuspensa 
                 obrigatorio={true} 
                 label="Divisão" 
-                itens={divisoes}
+                itens={props.divisoes}
                 valor={divisao}
                 aoAlterado={valor => setDivisao(valor)}/>
                 <Botao>
